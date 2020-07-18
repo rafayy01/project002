@@ -43,4 +43,4 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
     - name: Deploy to surge
-      run: surge ./build project002.surge.sh ${{ Secrets.SURGE }}
+      run: surge ./build project002-rafay.surge.sh ${{ Secrets.SURGE }}
